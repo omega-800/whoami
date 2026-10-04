@@ -1,0 +1,15 @@
+{
+  "short_name": "omega",
+  "name": "omega's personal site",
+  "icons": [
+    {
+      "src": "/chad.jpg",
+      "sizes": "192x192",
+      "type": "image/jpg"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#c9a8e0",
+  "background_color": "#000000"
+}

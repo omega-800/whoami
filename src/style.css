@@ -1,0 +1,52 @@
+:root {
+  --color-dark: #000000;
+  --color-light: #ffffff;
+  --color-accent: #c9a8e0;
+}
+
+@font-face {
+  font-family: JetBrainsMono;
+  src: url(JetBrainsMono-Regular.woff2);
+}
+
+html {
+  background-color: var(--color-dark);
+  color: var(--color-accent);
+  font-family: JetBrainsMono, monospace;
+}
+
+body {
+  max-width: min(40rem, 80%);
+  margin: 5rem auto;
+}
+
+a {
+  color: var(--color-accent);
+}
+
+a:hover {
+  color: var(--color-light);
+}
+
+article {
+  margin-top: 2rem;
+}
+
+ul {
+  list-style-type: "- ";
+}
+
+li {
+  padding-bottom: .5rem;
+}
+
+#title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#title img {
+  height: 5rem;
+  width: 5rem;
+}
