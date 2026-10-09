@@ -1,3 +1,1 @@
-# whoami
-
-https://whoami.igrok.net
+# [whoami](https://whoami.igrok.net)
